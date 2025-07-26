@@ -6,11 +6,11 @@ console.log(3
     +
      3) // code readability should be high
 
-console.log("Hitesh")
+console.log("Devraj")
 
 
-let name = "hitesh"
-let age = 18
+let name = "devraj"
+let age = 22
 let isLoggedIn = false
 let state;
 
