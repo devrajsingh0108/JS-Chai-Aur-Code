@@ -1,6 +1,7 @@
-let score = "hitesh"
+let score = "devraj"
 
 //console.log(typeof score);
+//OR you can use
 //console.log(typeof(score));
 
 let valueInNumber = Number(score)
@@ -12,14 +13,14 @@ let valueInNumber = Number(score)
 // "33abc" => NaN
 //  true => 1; false => 0
 
-let isLoggedIn = "hitesh"
+let isLoggedIn = "devraj"
 
 let booleanIsLoggedIn = Boolean(isLoggedIn)
 //  console.log(booleanIsLoggedIn);
 
 // 1 => true; 0 => false
 // "" => false
-// "hitesh" => true
+// "devraj" => true
 
 let someNumber = 33
 
@@ -27,7 +28,11 @@ let stringNumber = String(someNumber)
 // console.log(stringNumber);
 // console.log(typeof stringNumber);
 
-// *********************** Operations ***********************
+
+
+/*/***********************************************************\\
+||************************ Operations ***********************|| 
+\\***********************************************************/
 
 let value = 3
 let negValue = -value
@@ -41,17 +46,17 @@ let negValue = -value
 // console.log(2%3);
 
 let str1 = "hello"
-let str2 = " hitesh"
+let str2 = " devraj"
 
 let str3 = str1 + str2
 // console.log(str3);
 
 // console.log("1" + 2);
 // console.log(1 + "2");
-// console.log("1" + 2 + 2);
-// console.log(1 + 2 + "2");
+// console.log("1" + 2 + 2);  // "12" + 2 => "122"
+// console.log(1 + 2 + "2"); // 1 + 2 + 3 => 3 + "2" => "32"
 
-// console.log( (3 + 4) * 5 % 3);
+// console.log( (3 + 4) * 5 % 3);  // 7 * 5 % 3 => 35 % 3 => 2
 
 // console.log(+true);
 // console.log(+"");
