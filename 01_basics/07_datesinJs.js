@@ -54,4 +54,4 @@ console.log(newDate.getDay());          // this is how we can get the current da
 newDate.toLocaleString('default', {
     weekday: "long",
     
-})                                        // this is how we can get the current day of the week in long format (e.g., "Monday")
+})                                        // this is how we can get the current day  of the week in long format (e.g., "Monday")
